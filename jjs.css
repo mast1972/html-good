@@ -42,6 +42,12 @@ body {
     height: auto;
     margin-right: 10px;
 }
+.line {
+    position: relative;
+    top: -20px;
+    border: 1px solid white;
+    margin: 20px 0;
+}
 .games {
     display: flex-start;
     justify-content: space-between;
