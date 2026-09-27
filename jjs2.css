@@ -26,19 +26,60 @@ body {
 }
 
 .main h1 {
-    font-size: 32px;
+    font-size: 23px;
     color: black;
-    font-weight: 600;
+    font-weight: 400;
     margin : 0;
 }
 
-.search-input {
+.search-box {
     width: 600px;
     height: 50px;
-    border-radius: 25px;
-    background-color: white;
-    border: 1px solid gray;
-    padding: 20px;
-    box-sizing: border-box;
+    border-radius: 30px; 
+    background-color: white; 
+    border: 1px solid #d9d9d9; 
+    box-sizing: border-box; 
+    display: flex; 
+    align-items: center; 
+    padding: 5px 10px; 
     margin-top: 20px;
+}
+
+.search-box button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border: none;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0;
+    font-size: 18px;
+}
+
+.search-input {
+    flex: 1;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+#send-button {
+    background-color: #d9d9d9;
+    color: white;
+    justify-content: center;
+    border-radius: 50%;
+    height: 35px;               
+    margin: 0;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.search-box button:hover {
+    background-color: #f0f0f0;
 }
