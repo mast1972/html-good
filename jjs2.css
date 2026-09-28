@@ -15,12 +15,40 @@ body {
 .상단버튼 {
     border: 1px solid #d9d9d9;
     background-color: white;
-    font-size: 13px;
-    padding: 6px 55px;
+    font-size: 14px;
     border-radius: 20px;
     margin-left: 40px;
+    width: 200px;
+    height: 36px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
 }
 
+.상단버튼 span {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    color: #999999;
+}
+
+.상단버튼 span:first-child {
+    width: 110px;
+    height: 38px;
+    background-color: white;
+    color: #333333;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    transform: translate(-5px);
+}
+
+.상단버튼 span:last-child {
+    width: 88px;
+}
 
 
 .main {
@@ -111,16 +139,32 @@ body {
     position: fixed;
     left: 10px;
     top: 0;
-    width: 40px;
+    width: 30px;
     height: 100vh;
     border-right: 1px solid #e5e5e5;
     box-sizing: border-box;
 }
 
 .aside img {
-    width: 30px;
-    height: 30px;
+    width: 23px;
+    height: 23px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     object-fit: contain;
-    background-color: white;
+    background-color: #fcfcfc;
 }
 
+.right-icon {
+    position: fixed;
+    right: 20px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.mic {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
